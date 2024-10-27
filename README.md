@@ -1,4 +1,6 @@
 # E-commerce database design
+![image](https://github.com/user-attachments/assets/88db9f5f-a854-4590-8ce2-84093d0557bb)
+
 ## **I. Introduction**
 ### **Project Overview:**
 The goal of this project is to design and implement a database schema for an e-commerce website, inspired by the structure and functionality of Nike's online store. This schema will be used to manage product information, customer data, order processing and inventory management. The goal of the project is to demonstrate a comprehensive understanding of database design principles and normalization techniques.

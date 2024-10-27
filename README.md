@@ -1,21 +1,21 @@
 # E-commerce database design
-**I. Introduction**
-**Project Overview:**
+## **I. Introduction**
+### **Project Overview:**
 The goal of this project is to design and implement a database schema for an e-commerce website, inspired by the structure and functionality of Nike's online store. This schema will be used to manage product information, customer data, order processing and inventory management. The goal of the project is to demonstrate a comprehensive understanding of database design principles and normalization techniques.
 
-**Discussion:** Nike's online store was chosen as schema inspiration for several reasons: 
+### **Discussion:** Nike's online store was chosen as schema inspiration for several reasons: 
 - **Scalability and Size**
 - **Comprehensive Product Categorization**
 - **Common Industry Standard**
 - **Adaptability and Innovation** 
 
-**II. Initial Planning**
+## **II. Initial Planning**
 **Requirements Analysis:**
 - **Objective:** To create a robust and scalable database schema for an e-commerce website.
 - **Scope:** The schema will include tables for managing products, categories, customers, orders, inventory, reviews and shipping details.
 
-**III. Defining Entities and Attributes**
-**Key Entities:**
+## **III. Defining Entities and Attributes**
+### **Key Entities:**
 
 **1. Main_Categories**
 - **Key(s):**  'Main_category_ID' **(PK)**
@@ -82,8 +82,8 @@ The goal of this project is to design and implement a database schema for an e-c
 - **Other attributes:** , 'Comment', 'Review_Date', 'Rating'
 - **Purpose:** To store customer reviews for products, including the comment, date and rating
 
-**IV. Establishing Relationships**
-**Entity Relationships:**
+## **IV. Establishing Relationships**
+### **Entity Relationships:**
 
 **1. Main_Categories to Subcategories:**
 - One-to-Many Relationship
@@ -137,7 +137,7 @@ The goal of this project is to design and implement a database schema for an e-c
 - One-to-One Relationship
 - Each order has one shipping record
 
-**V. Normalization Process**
+## **V. Normalization Process**
 **First Normal Form (1NF):**
 - All tables have atomic values and no repeating groups
 
@@ -148,9 +148,9 @@ The goal of this project is to design and implement a database schema for an e-c
 - No transitive dependencies
 - All none-key attributes are dependent only on the primary key
 
-**VI. Tool Used**
+## **VI. Tool Used**
 - **Diagraming Tool:** Used **draw.io** for creating ER diagram.
 - **Database Management System (DBMS):** PostgreSQL for implementing the schema.
 
-**VII. Conclusion**
+## **VII. Conclusion**
 This project demonstrates a thorough understanding of database design and normalization principles. The schema is designed to be scalable, ensuring data integrity and efficient data retrieval. This document, along with the ER diagram, showcases the structured approach taken to develop a comprehensive database schema for an e-commerce website.

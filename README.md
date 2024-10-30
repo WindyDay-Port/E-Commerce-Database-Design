@@ -1,4 +1,4 @@
-# E-commerce database design
+# E-Commerce Database Design
 ![image](https://github.com/user-attachments/assets/88db9f5f-a854-4590-8ce2-84093d0557bb)
 
 ## **I. Introduction**
